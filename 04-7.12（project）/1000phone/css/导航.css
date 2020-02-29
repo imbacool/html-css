@@ -1,0 +1,23 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+ul,li{
+    list-style: none;
+    float: left;
+}
+a{
+    display: block;
+    height: 62px;
+    line-height: 62px;
+    background: #000;
+    color: #fff;
+}
+span{
+    padding: 0 15px;
+    border-right: #504e4e 1px solid;
+}
+a:hover{
+    background: #F15A23;
+}
+a:hover span{
+    border:0;
+}

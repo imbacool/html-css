@@ -1,0 +1,23 @@
+html,body{
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+}
+header,footer{
+    height: 100px;
+    background-color: #ccc;
+}
+main{
+    flex: 1;
+    background-color: #779988;
+    display: flex;
+    flex-flow: row wrap;
+}
+nav,aside{
+    width: 100px;
+    background-color: pink;
+}
+article{
+    flex: 1;
+    background-color: purple;
+}

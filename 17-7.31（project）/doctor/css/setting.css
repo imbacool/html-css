@@ -1,0 +1,109 @@
+html,
+body {
+    height: 100%;
+}
+
+#setting {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #EFEFF4;
+}
+
+header {
+    height: 1.146667rem;
+    font-size: .453333rem;
+    line-height: 1.146667rem;
+    text-align: center;
+    border-bottom: .013333rem #cccccc solid;
+    background: url(../images/setting/1.png) no-repeat .44rem .293333rem #fff;
+    background-size: .28rem .533333rem;
+}
+
+main {
+    flex: 1;
+    overflow: scroll;
+}
+
+main div p {
+    font-size: .346667rem;
+    line-height: 1.173333rem;
+    padding-left: .426667rem;
+    background-color: #fff;
+}
+
+main div:nth-of-type(1) {
+    height: 1.706667rem;
+    padding: .266667rem 0;
+}
+
+main div:nth-of-type(1) p {
+    background: url(../images/setting/2.png) no-repeat 8.986667rem center #fff;
+    background-size: .16rem .293333rem;
+}
+
+main div:nth-of-type(2) {
+    height: 3.52rem;
+}
+
+main div:nth-of-type(2) p:nth-of-type(2) {
+    background: url(../images/setting/2.png) no-repeat 8.986667rem center #fff;
+    background-size: .16rem .293333rem;
+    border-top: #EFEFF4 .013333rem solid;
+    border-bottom: #EFEFF4 .013333rem solid;
+}
+
+main div:nth-of-type(3) {
+    height: 2.84rem;
+    padding: .266667rem 0;
+}
+
+main div:nth-of-type(3) p {
+    background: url(../images/setting/2.png) no-repeat 8.986667rem center #fff;
+    background-size: .16rem .293333rem;
+    border-bottom: #EFEFF4 .013333rem solid;
+}
+
+main div:nth-of-type(4) {
+    height: 1.76rem;
+}
+
+main div:nth-of-type(4) p {
+    font-size: .346667rem;
+    line-height: .986667rem;
+    padding-top: .093333rem;
+    background: url(../images/setting/2.png) no-repeat 8.986667rem .733333rem #fff;
+    background-size: .16rem .293333rem;
+}
+
+main div:nth-of-type(4) h3 {
+    height: .68rem;
+    color: #888888;
+    font-size: .293333rem;
+    background-color: #fff;
+    padding-left: .426667rem;
+}
+
+main h2 {
+    font-size: .293333rem;
+    line-height: 1.066667rem;
+    padding-top: .44rem;
+    text-align: center;
+}
+
+main ul {
+    display: table;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+main li {
+    float: left;
+    margin: 0 .173333rem;
+}
+
+main div:nth-of-type(5) {
+    height: 4.226667rem;
+    background: url(../images/setting/3.png) no-repeat center bottom;
+    background-size: 3.986667rem 3.52rem;
+}

@@ -1,0 +1,29 @@
+.a{
+    width: 500px;
+    height: 400px;
+    margin: 200px auto;
+    background: #666666;
+}
+h1{
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 50px;
+}
+.b{
+    width: 280px;
+    height: 190px;
+    overflow: hidden;
+    float: left;
+    margin:0 40px 0 20px;
+}
+ul{
+    width: 80px;
+	height: 200px;
+    overflow-y: scroll;
+    float: left;
+}
+ul a{
+    display: block;
+    margin-bottom:10px;
+}

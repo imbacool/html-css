@@ -1,0 +1,132 @@
+html,body{
+    height: 100%;
+}
+#index{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height: 1.146667rem;
+    background-color: #D43C33;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header i{
+    font-size: .626667rem;
+    color: #fff;
+}
+header input{
+    width: 7.12rem;
+    height: .8rem;
+    border-radius: .4rem;
+    text-align: center;
+}
+nav{
+    height: 1.066667rem;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    flex: 1;
+    display: flex;
+}
+nav a{
+    width: 1.093333rem;
+    text-align: center;
+    line-height: 1.066667rem;
+    margin: 0 auto;
+    font-size: .373333rem;
+    color: #000000;
+}
+nav a:active{
+    color: #D43C33;
+    border-bottom: .053333rem #D43C33 solid;
+}
+main{
+    flex: 1;
+    overflow: scroll;
+}
+main .banner{
+    height: 3.893333rem;
+    background: url(../images/1.png);
+    background-size: cover;
+}
+main .menu{
+    height: 2.773333rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: #E2E3E4 .013333rem solid;
+}
+.menu div{
+    width: 1.333333rem;
+    height: 1.813333rem;
+}
+.menu div p{
+    height: 1.333333rem;
+    border-radius: 50%;
+    border: #D43C33 .013333rem solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .093333rem;
+}
+.menu div p img{
+    width: .64rem;
+    height: .613333rem;
+}
+.menu div h2{
+    width: 1.333333rem;
+    text-align: center;
+}
+.tuijian h2{
+    font-size: .4rem;
+    width: 2.346667rem;
+    text-align: center;
+    border-left: #D43C33 .053333rem solid;
+    margin-top: .533333rem;
+    margin-bottom: .413333rem;
+    position: relative;
+}
+.tuijian h2 img{
+    position: absolute;
+    top: 3px;
+    right: -8px;
+    width: .213333rem;
+    height: .413333rem;
+}
+.tuijian .column{
+    column-count: 3;
+}
+.tuijian .column figure{
+    margin-bottom: .506667rem;
+}
+.tuijian .column img{
+    width: 100%;
+}
+footer{
+    height: 1.306667rem;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer div{
+    color: #A7A7A7;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+footer div i{
+    font-size: .613333rem;
+}
+footer div span{
+    font-size: .24rem;
+    margin-top: .066667rem;
+}
+footer div:active{
+    color: #fff;
+}

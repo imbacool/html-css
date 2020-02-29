@@ -1,0 +1,78 @@
+.a{
+    width: 320px;
+    height: 320px;
+    border: 1px red solid;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.a p{
+    width: 100px;
+    height: 100px;
+    float: left;
+    background: red;
+    line-height: 100px;
+    text-align: center;
+}
+.a a{
+    color: #ffffff;
+}
+.a p:nth-child(1){
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.a p:nth-child(2){
+   position: absolute;
+   right: 10px; 
+   top: 10px;
+}
+.a p:nth-child(3){
+    position: absolute;
+    left: 110px;
+    top: 110px;
+}
+.a p:nth-child(4){
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+.a p:nth-child(5){
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.b{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 500px;
+    top: 100px;
+}
+.b p{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    float: left;
+    border: 1px red solid;
+}
+.b p:nth-child(2){
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+.b p:nth-child(3){
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.b p:nth-child(4){
+    position: absolute;
+    left: 150px;
+    top: 150px;
+}
+.b p:nth-child(5){
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}

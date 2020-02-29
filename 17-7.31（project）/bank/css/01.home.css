@@ -1,0 +1,215 @@
+html,body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    height: 1.173333rem;
+    display: flex;
+}
+.head i{
+    font-size: .693333rem;
+    color: #B1120D;
+    margin: .24rem .16rem 0 3.6rem;
+}
+.head img:nth-of-type(1){
+    width: 1.946667rem;
+    height: .626667rem;
+    margin-top: .306667rem;
+    margin-right: 2.506667rem;
+}
+.head img:nth-of-type(2) {
+    width: .973333rem;
+    height: .826667rem;
+    margin-top: .08rem;
+}
+.banner{
+    height: 4rem;
+    background: url(../images/home/3.png);
+    background-size: cover;
+}
+.func div{
+    width: 2.493333rem;
+    height: 2.333333rem;
+    border: .013333rem #cccccc solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+.func div i{
+    font-size: .88rem;
+}
+.func div span{
+    font-size: .32rem;
+    color: #737373;
+}
+.func div:nth-of-type(1) i{
+    color: #13A7A0;
+}
+.func div:nth-of-type(2) i {
+    color: #438CD0;
+}
+.func div:nth-of-type(3) i {
+    color: #69B03C;
+}
+.func div:nth-of-type(4) i {
+    color: #FFB018;
+}
+.func div:nth-of-type(5) i {
+    color: #FFB018;
+}
+.func div:nth-of-type(6) i {
+    color: #13A7A0;
+}
+.func div:nth-of-type(7) i {
+    color: #D6291B;
+}
+.func div:nth-of-type(8) i {
+    color: #EF5B48;
+}
+.fanye{
+    height: .56rem;
+    background-color: #E9E9E9;
+    border-bottom: #E0E0E0 .013333rem solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fanye span{
+    width: .186667rem;
+    height: .186667rem;
+    border-radius: 50%;
+    margin: 0 .12rem;
+}
+.fanye span:nth-of-type(1){
+    background-color: #2F8CE3;
+}
+.fanye span:nth-of-type(2) {
+    background-color: #B8B8B8;
+}
+.ad header{
+    height: 1.053333rem;
+    border-left: #F85255 .053333rem solid;
+    display: flex;
+}
+.ad header h2{
+    font-size: .346667rem;
+    color: #F85255;
+    margin-left: .36rem;
+    line-height: 1.053333rem;
+    margin-right: 7.093333rem;
+}
+.ad header span{
+    font-size: .293333rem;
+    color: #F85255;
+    margin-top: .413333rem;
+}
+.ad main{
+    height: 4.16rem;
+    border-top: #E0E0E0 .013333rem solid;
+    border-bottom: #E0E0E0 .013333rem solid;
+}
+.ad main .left{
+    height: 1.12rem;
+    margin-left: .88rem;
+    margin-top: .813333rem;
+    float: left;
+    margin-right: .853333rem;
+}
+.ad main .left h2{
+    font-size: .48rem;
+    color: #F85255;
+}
+.ad main .left h3 {
+    font-size: .24rem;
+    color: #F85255;
+    margin-top: .2rem;
+    text-align: center;
+}
+.ad main .right{
+    height: 1.853333rem;
+    margin-top: .4rem;
+}
+.ad main .right h4{
+    color: #595959;
+    font-size: .346667rem;
+    margin-bottom: .226667rem;
+}
+.ad main .right h5 {
+    display: inline-block;
+    width: 2.24rem;
+    height: .72rem;
+    background-color: #F85255;
+    color: #ffffff;
+    font-size: .293333rem;
+    text-align: center;
+    line-height: .72rem;
+    border-radius: .4rem;
+    margin-right: .186667rem;
+}
+.ad main .right h6 {
+    display: inline-block;
+    width: 1.92rem;
+    height: .72rem;
+    background-color: #F85255;
+    color: #ffffff;
+    font-size: .293333rem;
+    text-align: center;
+    line-height: .72rem;
+    border-radius: .4rem;
+}
+.ad main .right span{
+    float: left;
+    font-size: .293333rem;
+    color: #595959;
+    margin-top: .28rem;
+}
+.ad main i{
+    position: relative;
+}
+.ad main i img{
+    width: .226667rem;
+    height: .373333rem;
+    position: absolute;
+    right: -2.13333rem;
+    top: -1.06667rem;
+}
+.ad main p{
+    margin-top: .64rem;
+    margin-left: .4rem;
+    width: 9.2rem;
+    height: 1.013333rem;
+    background-color: #F5F5F5;
+    color: #9B9B9B;
+    line-height: 1.013333rem;
+    font-size: .293333rem;
+    padding-left: .28rem;
+}
+.empty{
+    height: .346667rem;
+    background-color: #EAEAEA;
+    border-bottom: #CCCCCC .013333rem solid;
+}
+.foot{
+    height: 68px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.foot div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.foot div i {
+    font-size: .6rem;
+}
+.foot div span{
+    font-size: .24rem;
+    line-height: .48rem;
+}
+.foot div:active{
+    color: #0074E1;
+}

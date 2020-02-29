@@ -1,0 +1,33 @@
+.box{
+    width: 1000px;
+    height: 300px;
+    margin: 100px auto;
+    background-color: pink;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box div{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+span{
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+    border-radius: 50%;
+}
+.box div:nth-of-type(1){
+    justify-content: center;
+    align-items: center;
+}

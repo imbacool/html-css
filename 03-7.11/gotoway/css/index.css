@@ -1,0 +1,105 @@
+*{margin: 0;padding: 0;}
+.common{
+    width: 1002px;
+    margin: auto;
+}
+#logo{
+    background: #F2F2F2;
+}
+.logo{
+    height: 65px;
+}
+.logo .logo-1{
+    width: 169px;
+    height: 65px;
+    background: #874587;
+    float: left;
+}
+.logo .logo-2{
+    width: 446px;
+    height: 65px;
+    background: #874587;
+    float: right;
+}
+.banner{
+    width: 100%;
+    height: 423px;
+    background: #5482A4;
+}
+#ad{
+    background: #F2F2F2;
+}
+.ad{
+    height: 328px;
+}
+.ad div{
+    width: 50%;
+    height: 328px;
+    background: #865286;
+    float: left;
+}
+#links1{
+    background: #F2F2F2;
+}
+.links1{
+    height: 339px;
+}
+.links1 .links1-1{
+    width: 305px;
+    height: 339px;
+    background: #753217;
+    float: left;
+}
+.links1 .links1-2{
+    width: 298px;
+    height: 339px;
+    background: #998822;
+    float: left;
+}.links1 .links1-3{
+    width: 399px;
+    height: 339px;
+    background: #753217;
+    float: left;
+}
+#links2{
+    background: #F2F2F2;
+}
+.links2{
+    height: 49px;
+}
+.links2 .links2-1{
+    width: 53px;
+    height: 49px;
+    background: #00B5EE;
+    float: left;
+}
+.links2 .links2-2{
+    width: 646px;
+    height: 49px;
+    background: #00B5EE;
+    float: right;
+}
+#links3{
+    background: #383838;
+}
+.links3{
+    height: 182px;
+}
+.links3 .links3-1{
+    width: 453px;
+    height: 182px;
+    background: #357835;
+    float: left;
+}
+.links3 .links3-2{
+    width: 196px;
+    height: 182px;
+    background: #357835;
+    float: right;
+}
+#bottom{
+    background: #383838;
+}
+.bottom{
+    height: 47px;
+}

@@ -1,0 +1,42 @@
+div{
+    width: 980px;
+    height: 53px;
+    background: #141414;
+    border-bottom: 2px solid #AD0707;
+}
+li{
+    float: left;
+}
+a{
+    display: block;
+    width: 98px;
+    height: 53px;
+    line-height: 53px;
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    border-right: #0F0F0F 1px solid;
+}
+a:hover{
+    background: #AD0707;
+}
+form{
+    float: right;
+    margin-top: 13px;
+}
+input:nth-child(1){
+    background: #58bc58;
+    width: 161px;
+    height: 27px;
+    color: #ffffff;
+    padding-left: 13px;
+}
+input:nth-child(2){
+    width: 26px;
+    height: 27px;
+    background: url(../images/fangdajing.jpg) no-repeat center 
+}
+input::-webkit-input-placeholder { /* WebKit browsers */
+    color: #ffffff;
+    font-size: 12px;
+  }

@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.common{
+    width: 961px;
+    margin: auto;
+}
+#logo{
+    background: #FFFFFF;
+}
+.logo{
+    height: 100px;
+}
+.logo .logo-1{
+    width: 245px;
+    height: 100px;
+    background: #119999;
+    float: left;
+}
+.logo .logo-2{
+    width: 228px;
+    height: 100px;
+    background: #119999;
+    float: right;
+}
+#menu{
+    background: #2F2F2F;
+}
+.menu{
+    height: 59px;
+}
+.banner{
+    width: 100%;
+    height: 463px;
+    background: #CA2624;
+}
+#news{
+    background: #FFFFFF;
+}
+.news{
+    height: 240px;
+}
+.news .news-1{
+    width: 481px;
+    height: 240px;
+    background: #559944;
+    float: left;
+}
+.news .news-2{
+    width: 240px;
+    height: 240px;
+    background: #F1F1F1;
+    float: left;
+}
+.news .news-3{
+    width: 240px;
+    height: 240px;
+    background: #559944;
+    float: left;
+}
+#ad{
+    background: #FFFFFF;
+}
+.ad{
+    height: 306px;
+}
+.ad .ad-1{
+    width: 231px;
+    height: 306px;
+    background: #888877;
+    float: left;
+}
+.ad .ad-2{
+    width: 250px;
+    height: 306px;
+    background: #843084;
+    float: left;
+}.ad .ad-3{
+    width: 250px;
+    height: 306px;
+    background: #888877;
+    float: left;
+}.ad .ad-4{
+    width: 230px;
+    height: 306px;
+    background: #843084;
+    float: left;
+}
+#links{
+    background: #E5E5E5;
+}
+.links{
+    height: 249px;
+}
+.links .links-1{
+    width: 654px;
+    height: 249px;
+    background: #512475;
+    float: left;
+}
+.links .links-2{
+    width: 258px;
+    height: 249px;
+    background: #512475;
+    float: right;
+}
+#bottom{
+    background: #FFFFFF;
+}
+.bottom{
+    height: 83px;
+}
+.bottom .bottom-1{
+    width: 244px;
+    height: 83px;
+    background: #325873;
+    float: left;
+}
+.bottom .bottom-2{
+    width: 592px;
+    height: 83px;
+    background: #325873;
+    float: right;
+}

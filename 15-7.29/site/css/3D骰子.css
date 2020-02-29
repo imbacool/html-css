@@ -1,0 +1,44 @@
+div{
+    width: 300px;
+    height: 300px;
+    margin: 150px auto;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 3s;
+}
+p{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    font-size: 50px;
+    line-height: 300px;
+    text-align: center;
+    opacity: 0.5;
+}
+div p:nth-of-type(1){
+    transform: translateX(150px) rotateY(90deg);
+    background-color: red;
+}
+div p:nth-of-type(2){
+    transform: translateX(-150px) rotateY(-90deg);
+    background-color: blue;
+}
+div p:nth-of-type(3){
+    transform: translateY(-150px) rotateX(90deg);
+    background-color: green;
+}
+div p:nth-of-type(4){
+    transform: translateY(150px) rotateX(-90deg);
+    background-color: yellow;
+}
+div p:nth-of-type(5){
+    transform: translateZ(-150px);
+    background-color: orange;
+}
+div p:nth-of-type(6){
+    transform: translateZ(150px);
+    background-color: purple;
+}
+div:hover{
+    transform: rotate3d(1,1,1,360deg);
+}

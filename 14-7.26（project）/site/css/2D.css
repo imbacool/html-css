@@ -1,0 +1,18 @@
+p{
+    height: 50px;
+    background-color: #ccc;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+img{
+    margin: 50px 50px;
+}
+.top img:hover{
+    transform: rotate(360deg) scale(2,2);
+    transition: all 0.5s linear;
+}
+.bottom img:hover{
+    transform: rotate(-360deg) scale(0.7,0.7);
+    transition: all 0.5s linear;
+}

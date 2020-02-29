@@ -1,0 +1,73 @@
+*{box-sizing: border-box;}
+
+ul{
+    width: 500px;
+    position: relative;
+    margin: 100px auto;
+}
+@keyframes solar{
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+li{
+    border: 1px #000 solid;
+    position: absolute;
+    animation: solar 10s linear infinite;
+}
+li:nth-of-type(1){
+    width: 500px;
+    height: 500px;
+}
+li:nth-of-type(2){
+    width: 400px;
+    height: 400px;
+    top: 50px;
+    left: 50px;
+    animation-duration: 8s;
+}
+li:nth-of-type(3){
+    width: 300px;
+    height: 300px;
+    top: 100px;
+    left: 100px;
+    animation-duration: 6s;
+}
+li:nth-of-type(4){
+    width: 200px;
+    height: 200px;
+    top: 150px;
+    left: 150px;
+    animation-duration: 4s;
+}
+li:nth-of-type(5){
+    width: 100px;
+    height: 100px;
+    top: 200px;
+    left: 200px;
+    background: radial-gradient(red,orange,yellow);
+}
+span{
+    display: block;
+    width: 26px;
+    height: 26px;
+    background: radial-gradient(gold,green,blue);
+    position: absolute;
+    top: -13px;
+    left: 50%;
+    margin-left: -13px;
+    animation: solar 2s linear infinite;
+}
+i{
+    width: 10px;
+    height: 10px;
+    display: block;
+    background-color: purple;
+    position: absolute;
+    left: 50%;
+    margin-left: -5px;
+    top: -17px;
+}
+li,span,i{
+    border-radius: 50%;
+}

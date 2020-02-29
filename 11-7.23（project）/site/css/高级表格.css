@@ -1,0 +1,36 @@
+table{
+    width: 600px;
+    height: 242px;
+    margin: 50px auto;
+    border: #0047E1 1px solid;
+}
+caption{
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 900;
+}
+thead{
+    font-size: 12px;
+    line-height: 22px;
+    color: #fff;
+    background-color: #0047E1;
+    text-align: center;
+}
+th{
+    font-size: 12px;
+    color: #D8E4F8;
+    line-height: 20px;
+    background-color: #7E9DE5;
+    text-align: left;
+}
+td{
+    text-align: center;
+    color: #666666;
+    font-size: 12px;
+}
+thead td{
+    color: #fff;
+}
+tr:nth-of-type(3),tr:nth-of-type(5),tr:nth-of-type(8),tr:nth-of-type(10){
+    background-color: #FEF0F5;
+}

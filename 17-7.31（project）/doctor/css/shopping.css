@@ -1,0 +1,181 @@
+html,
+body {
+    height: 100%;
+}
+
+#shopping {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 1.28rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E94544;
+}
+
+header input {
+    width: 9.2rem;
+    height: .8rem;
+    padding-left: 1.066667rem;
+    background: url(../images/shopping/1.png) no-repeat .4rem .16rem #ffffff;
+    background-size: .453333rem .426667rem;
+    border-radius: .4rem;
+}
+
+main {
+    flex: 1;
+    overflow: scroll;
+}
+
+.banner {
+    height: 3.2rem;
+    background: url(../images/shopping/2.png);
+    background-size: cover;
+}
+
+.icon1 {
+    height: 2.36rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon1 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon1 div i {
+    width: 1.12rem;
+    height: 1.12rem;
+    font-size: .613333rem;
+    text-align: center;
+    line-height: 1.12rem;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.icon1 .icon-icon-test7 {
+    background-color: #E94F59;
+}
+
+.icon1 .icon-icon-test12 {
+    background-color: #1BCCC2;
+}
+
+.icon1 .icon-icon-test6 {
+    background-color: #80D465;
+}
+
+.icon1 .icon-icon-test22 {
+    background-color: #AA82FF;
+}
+
+.icon1 .icon-icon-test26 {
+    background-color: #DF4759;
+}
+
+.icon1 div span {
+    font-size: .32rem;
+    line-height: .773333rem;
+}
+
+.ad {
+    height: 2.36rem;
+    background: url(../images/shopping/3.png);
+    background-size: cover;
+    border-bottom: .026667rem #cccccc solid;
+}
+
+.icon2 {
+    height: 5.613333rem;
+    border-bottom: #cccccc .013333rem solid;
+}
+
+.icon2 .top,
+.icon2 .bot {
+    height: 2.8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon2 .top div,
+.icon2 .bot div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon2 i {
+    width: 1.133333rem;
+    height: 1.133333rem;
+    border-radius: 50%;
+    background-color: #E94F59;
+    color: #fff;
+    font-size: .8rem;
+    line-height: 1.133333rem;
+    text-align: center;
+    margin-bottom: .44rem;
+}
+
+.icon2 span {
+    font-size: .32rem;
+    line-height: .453333rem;
+}
+
+.icon2 span:nth-of-type(2) {
+    color: #A8A8A8;
+}
+
+.link {
+    height: 1.16rem;
+}
+
+.link h2 {
+    height: .746667rem;
+    padding-left: .426667rem;
+    font-size: .293333rem;
+    color: #DF4759;
+    line-height: .746667rem;
+    background: url(../images/shopping/4.png) no-repeat 9.28rem .213333rem;
+    background-size: .173333rem .32rem;
+}
+
+.link p {
+    height: .266667rem;
+    background: url(../images/shopping/5.png);
+    background-size: cover;
+}
+
+footer {
+    height: 1.386667rem;
+    border-top: #cccccc .013333rem solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer i {
+    font-size: .56rem;
+}
+
+footer span {
+    font-size: .266667rem;
+    line-height: .64rem;
+}
+
+footer div:active {
+    color: #DF4759;
+}

@@ -1,0 +1,27 @@
+*{padding: 0;margin: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+
+ul{
+    width: 443px;
+    height: 36px;
+    margin: 50px auto;
+}
+li{
+    float: left;
+}
+a{
+    display: block;
+    width: 54px;
+    height: 34px;
+    color: #F2FEFF;
+    font-size: 12px;
+    background: #2175BD;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 2px;
+}
+a:hover{
+    margin-top: 0px;
+    height: 36px;
+}

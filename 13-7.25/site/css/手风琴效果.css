@@ -1,0 +1,58 @@
+a{
+    display: block;
+    width: 524px;
+    height: 37px;
+    background-color: #B6B6B6;
+    font-size: 20px;
+    color: #fff;
+    line-height: 37px;
+    padding-left: 20px;
+    margin: 10px auto 0;
+    position: relative;
+    border-radius: 5px;
+}
+p{
+    width: 0;
+    height: 0;
+    border: 10px solid;
+    border-color: transparent #fff transparent transparent;
+    position: absolute;
+    top: 10px;
+    right: 35px;
+}
+.wow{
+    width: 524px;
+    height: 0;
+    margin: 0 auto;
+    overflow-y: scroll;
+}
+#Brand:target div{
+    height: 110px;
+}
+#Brand:target a{
+    background-color: #459CED;
+}
+#Brand:target p{
+    border-color: #fff transparent  transparent transparent;
+    top: 15px;
+}
+#Promotion:target div{
+    height: 110px;
+}
+#Promotion:target a{
+    background-color: #459CED;
+}
+#Promotion:target p{
+    border-color: #fff transparent  transparent transparent;
+    top: 15px;
+}
+#Event:target div{
+    height: 110px;
+}
+#Event:target a{
+    background-color: #459CED;
+}
+#Event:target p{
+    border-color: #fff transparent  transparent transparent;
+    top: 15px;
+}

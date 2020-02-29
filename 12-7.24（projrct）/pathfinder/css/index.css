@@ -1,0 +1,243 @@
+*{box-sizing: border-box;}
+
+#head{
+    background-color: #E50011;
+}
+#head header{
+    height: 94px;
+}
+header img{
+    padding-top: 28px;
+    float: left;
+    margin-right: 158px;
+}
+header form,ul,li{
+    float: left;
+}
+header form{
+    padding-top: 30px;
+}
+header select{
+    width: 100px;
+    height: 32px;
+    font-size: 12px;
+    line-height: 32px;
+    border: #fff 1px solid;
+    border-right: none;
+    background-color: #E50011;
+    color: #fff;
+    float: left;
+}
+header input:nth-of-type(1){
+    width: 183px;
+    height: 32px;
+    line-height: 32px;
+    background-color: #E50011;
+    border-top: #fff 1px solid;
+    border-bottom: #fff 1px solid;
+    float: left;
+}
+header input:nth-of-type(2){
+    background: url(../images/head-2.png) no-repeat center #E50011;
+    width: 39px;
+    height: 32px;
+    border: #fff 1px solid;
+    border-left: none;
+    float: left;
+}
+header ul{
+    margin-left: 14px;
+    padding-top: 38px;
+}
+header a{
+    color: #fff;
+    padding: 0 10px;
+    font-size: 12px;
+    line-height: 15px;
+    border-right: 1px #fff solid;
+}
+#nav{
+    background-color: #E50011;
+}
+nav{
+    height: 36px;
+}
+.nav-l{
+    margin-right: 172px;
+}
+nav .nav-l a{
+    font-size: 12px;
+    color: #fff;
+    line-height: 36px;
+    padding: 0 10px;
+}
+.nav-l li:hover a,.nav-l li:hover{
+    color: #E50011;
+    background-color: #fff;
+}
+.nav-r li{
+    padding-top: 5px;
+}
+.nav-r img{
+    padding: 0 10px;
+    border-right: #fff 1px solid;
+}
+#banner{
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+    height: 472px;
+}
+#pic{
+    background-color: #fff;
+}
+section{
+    height: 180px;
+}
+section img{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+#new{
+    background-color: #F5F5F5;
+}
+.new{
+    height: 344px;
+    padding-top: 40px;
+}
+.new .new-l{
+    width: 714px;
+    height: 264px;
+    background-color: #fff;
+}
+.new-l header{
+    padding-left: 20px;
+    line-height: 44px;
+    font-size: 16px;
+    float: left;
+    width: 618px;
+}
+.new-l>span{
+    font-size: 12px;
+    color: #ccc;
+    line-height: 44px;
+}
+.new .new-l div{
+    width: 316px;
+    height: 94px;
+    float: left;
+    margin-left: 20px;
+    background-color: #F5F5F5;
+    margin-bottom: 16px;
+}
+.new-l div img{
+    float: left;
+}
+.new-l div p{
+    line-height: 22px;
+    font-size: 12px;
+    padding-top: 16px;
+    padding-left: 9px;
+    float: left;
+    width: 154px;
+}
+.new-l div span{
+    font-size: 12px;
+    color: #ccc;
+    line-height: 21px;
+    float: left;
+    padding-left: 9px;
+}
+aside{
+    width: 246px;
+    height: 264px;
+    float: left;
+    background-color: #fff;
+    padding-right: 12px;
+}
+aside header{
+    float: left;
+    line-height: 44px;
+    font-size: 16px;
+}
+aside img:nth-of-type(1){
+    margin-left: 108px;
+    margin-top: 14px;
+}
+aside h2{
+    line-height: 24px;
+    font-size: 12px;
+}
+aside p{
+    line-height: 24px;
+    font-size: 12px;
+    color: #ccc;
+}
+aside span{
+    padding-top: 12px;
+    font-size: 12px;
+    margin-right: 11px;
+}
+#ad{
+    background-color: #fff;
+}
+.ad{
+    height: 396px;
+    padding-top: 60px;
+}
+.ad div{
+    float: left;
+    border-right: #ccc 1px solid;
+    padding-right: 42px;
+}
+.ad h2{
+    line-height: 42px;
+    font-size: 12px;
+    margin-bottom: 43px;
+}
+.ad a{
+    display: block;
+    width: 50px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #2AC180;
+    text-align: center;
+}
+#link{
+    background-color: #E50011;
+}
+footer{
+    height: 210px;
+    padding-top: 33px;
+    position: relative;
+}
+footer div{
+    padding-left: 414px;
+    margin-bottom: 27px;
+}
+footer div img{
+    padding: 0 15px;
+}
+footer ul{
+    margin-left: 200px;
+    float: left;
+    margin-bottom: 15px;
+}
+footer a{
+    font-size: 12px;
+    color: #fff;
+    padding: 0 10px;
+    border-right: #fff 1px solid;
+}
+footer p{
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    float: left;
+    width: 960px;
+}
+footer>img{
+    position: absolute;
+    right: -100px;
+    top: 57px;
+}

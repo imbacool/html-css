@@ -1,0 +1,103 @@
+body{
+    background: url(../images/2.jpg);
+}
+.b-box{
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+    position: relative;
+}
+.box{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    animation: roll 2s linear infinite;
+}
+img{
+    position: absolute;
+}
+.b-box>img:nth-of-type(1){
+    top: 344px;
+    left: 233px;
+    z-index: 6;
+}
+.b-box>img:nth-of-type(2){
+    width: 350px;
+    height: 200px;
+    top: 120px;
+    left: 76px;
+    z-index: 4;
+}
+.b-box>img:nth-of-type(3){
+    width: 200px;
+    height: 400px;
+    top: 213px;
+    left: 149px;
+    z-index: 3;
+}
+.b-box>img:nth-of-type(4){
+    width: 150px;
+    height: 300px;
+    top: 267px;
+    left: 174px;
+    z-index: 1;
+}
+.b-box .box img:nth-of-type(1){
+    width: 500px;
+    height: 500px;
+    z-index: 2;
+}
+.b-box>img:nth-of-type(5){
+    width: 369px;
+    height: 109px;
+    top: 263px;
+    left: 78px;
+    z-index: 5;
+}
+.box img:nth-of-type(2){
+    top: 150px;
+    z-index: 7;
+    animation: roll 2s linear infinite reverse;
+}
+.box img:nth-of-type(3){
+    top: 350px;
+    z-index: 7;
+    animation: roll 2s linear infinite reverse;
+}
+.box img:nth-of-type(4){
+    left: 150px;
+    z-index: 7;
+    animation: roll 2s linear infinite reverse;
+}
+.box img:nth-of-type(5){
+    left: 350px;
+    z-index: 7;
+    animation: roll 2s linear infinite reverse;
+}
+.box img:nth-of-type(6){
+    left: 350px;
+    top: 150px;
+    z-index: 7;
+    animation: roll 2s linear infinite reverse;
+}
+.box img:nth-of-type(7){
+    left: 350px;
+    top: 350px;
+    animation: roll 2s linear infinite reverse;
+    z-index: 7;
+}
+.box img:nth-of-type(8){
+    left: 150px;
+    top: 350px;
+    animation: roll 2s linear infinite reverse;
+    z-index: 7;
+}
+.box img:nth-of-type(9){
+    animation: roll 2s linear infinite reverse;
+    z-index: 7;
+}
+@keyframes roll{
+    100%{
+        transform: rotateZ(360deg)
+    }
+}

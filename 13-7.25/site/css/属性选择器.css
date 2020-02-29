@@ -1,0 +1,15 @@
+a[href$="doc"]{
+    background: url(../images/01.jpg) no-repeat left center;
+}
+a[href$="ppt"]{
+    background: url(../images/03.jpg) no-repeat left center;
+}
+a[href$="xlsx"]{
+    background: url(../images/09.jpg) no-repeat left center;
+}
+a{
+    display: block;
+    height: 120px;
+    padding-left: 300px;
+    color: purple;
+}

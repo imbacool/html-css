@@ -1,0 +1,31 @@
+*{box-sizing: border-box;}
+
+div{
+    width: 400px;
+    height: 400px;
+    border: 1px #000000 solid;
+    margin: 100px auto;
+    position: relative;
+}
+p{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: yellow;
+    animation: laji 1s linear infinite;
+}
+@keyframes laji{
+    0%{}
+    25%{
+        transform: translateX(300px)
+    }
+    50%{
+        transform: translateY(300px) translateX(300px);
+    }
+    75%{
+        transform:translateY(300px);
+    }
+}
+div:hover p{
+    animation-play-state: paused;
+}

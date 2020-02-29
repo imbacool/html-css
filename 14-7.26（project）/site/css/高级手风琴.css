@@ -1,0 +1,37 @@
+.one,.two{
+    width: 250px;
+    margin: 0 auto;
+}
+p{
+    width: 250px;
+    height: 30px;
+    background-color: yellow;
+    font-size: 20px;
+    line-height: 30px;
+    color: red;
+    text-align: center;
+}
+.one div{
+    width: 250px;
+    height: 0px;
+    background-color: blue;
+    color: gold;
+    font-size: 40px;
+    transition: all 1s linear;
+    text-align: center;
+    overflow: hidden;
+}
+.two div{
+    background: url(../images/fj.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 0px;
+    transition: all 0s linear;
+    overflow: hidden;
+}
+.one:hover div{
+    height: 170px;
+}
+.two:hover div{
+    height: 300px;
+}

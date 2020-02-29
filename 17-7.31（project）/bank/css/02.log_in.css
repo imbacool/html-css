@@ -1,0 +1,133 @@
+html,body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: #E5E5E5;
+}
+header a{
+    line-height: 1.04rem;
+    font-size: .373333rem;
+    color: #0074E1;
+    padding-left: .613333rem;
+}
+.logo{
+    height: 4.546667rem;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo i{
+    color: #B1120D;
+    font-size: .92rem;
+    margin-right: .186667rem;
+}
+.logo img{
+    width: 2.44rem;
+    height: .813333rem;
+}
+form{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E5E5;
+}
+form .top{
+    height: 1.16rem;
+    border-bottom: .013333rem #cccccc solid;
+    display: flex;
+}
+form .top i{
+    width: 1.226667rem;
+    font-size: .413333rem;
+    text-align: center;
+    line-height: 1.16rem;
+    color: #B3B3B3;
+    background-color: #fff;
+}
+form .top input:nth-of-type(1){
+    width: 7.6rem;
+    font-size: .4rem;
+}
+form .top input:nth-of-type(2){
+    width: 1.2rem;
+    background-color: #fff;
+    background: url(../images/2.png) no-repeat center center;
+    background-color: #fff;
+}
+form .bottom {
+    height: 1.186667rem;
+    display: flex;
+}
+form .bottom i {
+    width: 1.226667rem;
+    font-size: .413333rem;
+    text-align: center;
+    line-height: 1.16rem;
+    color: #B3B3B3;
+    background-color: #fff;
+}
+form .bottom input{
+    width: 8.8rem;
+    font-size: .4rem;
+}
+form>input{
+    margin-top: .533333rem;
+    width: 8.933333rem;
+    height: 1.066667rem;
+    background-color: #0A5BD9;
+    border-radius: .133333rem;
+    margin-left: .533333rem;
+    color: #fff;
+    font-size: .373333rem;
+    margin-bottom: .626667rem;
+}
+form a{
+    color: #0A5BD9;
+    font-size: .346667rem;
+    align-self: flex-end;
+    margin-right: .613333rem;
+}
+.login{
+    height: 1.48rem;
+    display: flex;
+    justify-content: center;
+    background-color: #E5E5E5;
+    border-bottom: #CCCCCC .013333rem solid;
+}
+.login a{
+    width: 8.933333rem;
+    height: 1.066667rem;
+    color: #0074E1;
+    border: #0074E1 .026667rem solid;
+    border-radius: .133333rem;
+    text-align: center;
+    line-height: 1.066667rem;
+    background-color: #fff;
+}
+footer{
+    height: 1.293333rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer a i {
+    font-size: .6rem;
+}
+
+footer a span {
+    font-size: .24rem;
+    line-height: .48rem;
+}
+
+footer a:active {
+    color: #0074E1;
+}

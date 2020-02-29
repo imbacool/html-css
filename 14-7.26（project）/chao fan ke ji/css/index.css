@@ -1,0 +1,481 @@
+* {
+    box-sizing: border-box;
+}
+
+#head {
+    background-color: #fff;
+}
+
+.head {
+    height: 69px;
+}
+
+.head li {
+    float: left;
+}
+
+.head-l li:nth-of-type(1) img {
+    padding-top: 11px;
+}
+
+.head-l li:nth-of-type(2) {
+    margin-top: 20px;
+    width: 16px;
+    height: 32px;
+    border-right: 1px #cccccc solid;
+}
+
+.head-l li:nth-of-type(3) img {
+    padding-top: 22px;
+    padding-left: 11px;
+    margin-right: 42px;
+}
+
+.head-r a {
+    display: block;
+    font-size: 12px;
+    color: #000;
+    margin: 28px 26px 0;
+}
+
+#banner {
+    background: url(../images/banner.png);
+    background-size: cover;
+    height: 399px;
+}
+
+#business {
+    background-color: #fff;
+}
+
+.business {
+    height: 631px;
+    padding-top: 35px;
+}
+
+.business img {
+    padding-left: 374px;
+    padding-bottom: 19px;
+}
+
+.business>p {
+    font-size: 14px;
+    line-height: 20px;
+    width: 950px;
+    text-align: center;
+}
+
+.business a {
+    display: block;
+    width: 293px;
+    height: 182px;
+    float: left;
+    margin-right: 35px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.business a p {
+    width: 293px;
+    height: 182px;
+    position: absolute;
+    top: -200px;
+    transition: all 0.2s ease;
+    color: #000;
+    text-align: center;
+    padding: 40px 20px 0;
+}
+
+.business .pic-1 a {
+    background: url(../images/b-2.png);
+}
+
+.business .pic-2 a {
+    background: url(../images/b-3.png);
+}
+
+.business .pic-3 a {
+    background: url(../images/b-4.png);
+}
+
+.business .pic-4 a {
+    background: url(../images/b-5.png);
+}
+
+.business .pic-5 a {
+    background: url(../images/b-6.png);
+}
+
+.business .pic-6 a {
+    background: url(../images/b-7.png);
+}
+
+.business .pic-1 p {
+    background-color: skyblue;
+}
+
+.business .pic-2 p {
+    background-color: blue;
+}
+
+.business .pic-3 p {
+    background-color: yellow;
+}
+
+.business .pic-4 p {
+    background-color: greenyellow;
+}
+
+.business .pic-5 p {
+    background-color: #ff00ff;
+}
+
+.business .pic-6 p {
+    background-color: red;
+}
+
+.business a:hover p {
+    transform: translateY(200px);
+}
+
+#client {
+    background-color: #EBF0F1;
+}
+
+.client {
+    height: 635px;
+    padding-top: 34px;
+    padding-bottom: 41px;
+}
+
+.client>img {
+    padding-left: 400px;
+    padding-bottom: 19px;
+}
+
+.client p {
+    font-size: 14px;
+    line-height: 20px;
+    width: 950px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.client div {
+    width: 237px;
+    height: 139px;
+    float: left;
+    border: #cccccc 1px solid;
+}
+
+.client div img {
+    width: 235px;
+    height: 137px;
+    filter: grayscale(100%);
+    transition: all 0.2s linear;
+
+}
+
+.client div img:hover {
+    filter: grayscale(0);
+}
+
+#wokr {
+    background-color: #fff;
+}
+
+.work {
+    height: 569px;
+    padding-top: 35px;
+}
+
+.work>img {
+    padding-left: 402px;
+    padding-bottom: 19px;
+}
+
+.work p {
+    font-size: 14px;
+    line-height: 20px;
+    width: 950px;
+    text-align: center;
+    margin-bottom: 43px;
+}
+
+.work div {
+    width: 236px;
+    height: 176px;
+    float: left;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    position: relative;
+}
+
+.work div img {
+    width: 236px;
+    height: 176px;
+    position: absolute;
+}
+
+.work div p {
+    width: 236px;
+    height: 176px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    background-color: skyblue;
+    opacity: 0.9;
+    position: absolute;
+    z-index: -1;
+    transition: all 0.2s ease;
+    color: #fff;
+    font-size: 30px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.work div:hover p {
+    z-index: 1;
+}
+
+.work div p img {
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
+    transform: translateX(100px);
+    transition: all 0.2s linear;
+}
+
+.work div:hover p img {
+    transform: translateX(-90px);
+}
+
+#new {
+    background-color: #66ADC6;
+}
+
+.new {
+    height: 668px;
+    padding-top: 35px;
+}
+
+.new>img {
+    padding-left: 410px;
+    padding-bottom: 19px;
+}
+
+.new>p {
+    font-size: 14px;
+    line-height: 20px;
+    width: 950px;
+    text-align: center;
+    margin-bottom: 43px;
+    color: #fff;
+}
+
+.new-l {
+    width: 492px;
+    height: 500px;
+}
+
+.new-r {
+    width: 458px;
+    height: 500px;
+}
+
+.new-l div,
+.new-r div {
+    width: 458px;
+    height: 138px;
+    background-color: #fff;
+    margin-bottom: 13px;
+}
+
+.new-l div img,
+.new-r div img {
+    width: 142px;
+    height: 138px;
+    margin-right: 17px;
+    float: left;
+}
+
+.new-l div h2,
+.new-r div h2 {
+    padding-top: 12px;
+    line-height: 36px;
+    font-size: 14px;
+    float: left;
+}
+
+.new-l div p,
+.new-r div p {
+    font-size: 12px;
+    line-height: 18px;
+    color: #7D7D7E;
+    float: left;
+    width: 274px;
+    margin-bottom: 12px;
+}
+
+.new-l div span:nth-of-type(1),
+.new-r div span:nth-of-type(1) {
+    float: left;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.new-l div span:nth-of-type(2),
+.new-r div span:nth-of-type(2) {
+    float: right;
+    font-size: 12px;
+    color: #ccc;
+    margin-right: 25px;
+}
+
+.new-l div h2:hover,
+.new-l div span:nth-of-type(2):hover,
+.new-r div h2:hover,
+.new-r div span:nth-of-type(2):hover {
+    color: skyblue;
+}
+#contact{
+    background-color: #2E2E2E;
+}
+.contact{
+    height: 497px;
+    padding-top: 34px;
+}
+.contact>img{
+    padding-left: 380px;
+    padding-bottom: 33px;
+}
+.contact .contact-l{
+    width: 471px;
+    height: 316px;
+    position: relative;
+    border-right: #4D4D4D 1px solid;
+}
+.contact-l h2{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.contact-l p{
+    color: #fff;
+    font-size: 12px;
+    padding-left: 24px;
+    line-height: 24px;
+}
+.contact-l p:nth-of-type(1){
+    background: url(../images/con-2.png) no-repeat;
+    background-position: 5px 3px;
+}
+.contact-l p:nth-of-type(2){
+    background: url(../images/con-3.png) no-repeat;
+    background-position: 2px 6px;
+}
+.contact-l p:nth-of-type(3){
+    background: url(../images/con-4.png) no-repeat;
+    background-position: 2px 5px;
+}
+.contact-l p:nth-of-type(4){
+    background: url(../images/con-5.png) no-repeat;
+    background-position: 2px 4px;
+}
+.contact-l div:nth-of-type(1){
+    background: url(../images/con-6.png) no-repeat,#414141;
+    width: 171px;
+    height: 48px;
+    margin-top: 28px;
+    float: left;
+    background-position: 15px 7px;
+    margin-right: 14px;
+    border-radius: 5px;
+}
+.contact-l div:nth-of-type(2){
+    background: url(../images/con-7.png) no-repeat,#414141;
+    width: 171px;
+    height: 48px;
+    margin-top: 28px;
+    float: left;
+    background-position: 14px 12px;
+    border-radius: 5px;
+}
+.contact-l img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.contact-l span{
+    position: absolute;
+    left: 84px;
+    bottom: 48px;
+    color: #fff;
+    font-size: 16px;
+}
+.contact .contact-r{
+    width: 479px;
+    height: 392px;
+    padding-left: 42px;
+}
+.contact-r h2{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 22px;
+}
+.contact-r form{
+    color: #fff;
+    font-size: 12px;
+}
+.contact-r form input{
+    width: 226px;
+    height: 22px;
+    background-color: #828282;
+}
+.contact-r form select{
+    width: 226px;
+    height: 22px;
+    background-color: #828282;
+    color: #fff;
+    border: none;
+    padding-left: 5px;
+}
+.contact-r input:nth-of-type(1),
+.contact-r select:nth-of-type(1),
+.contact-r input:nth-of-type(3),
+.contact-r input:nth-of-type(4),
+.contact-r textarea:nth-of-type(1){
+    margin-left: 12px;
+    margin-bottom: 12px;
+}
+.contact-r input:nth-of-type(2){
+    margin-bottom: 12px;
+}
+.contact-r textarea{
+    width: 385px;
+    height: 108px;
+    background-color: #828282;
+    vertical-align: middle;
+}
+.contact-r input:nth-of-type(5){
+    width: 114px;
+    height: 30px;
+    margin-left: 46px;
+    border-radius: 5px;
+}
+.contact-r input:nth-of-type(6){
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+#foot{
+    background-color: #191919;
+}
+.foot{
+    height: 32px;
+    font-size: 12px;
+    line-height: 32px;
+    text-align: center;
+    color: #ccc;
+}

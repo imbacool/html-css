@@ -1,0 +1,11 @@
+*{margin: 0;padding: 0;}
+.a{
+    width: 402px;
+    height: 536px;
+}
+.a div{
+    background: url(../images/1.png);
+    width: 134px;
+    height: 134px;
+    float: left;
+}

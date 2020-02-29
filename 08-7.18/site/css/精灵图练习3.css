@@ -1,0 +1,20 @@
+ul{
+    width: 500px;
+    height: 200px;
+    margin: 200px auto;
+}
+li{
+    float: left;
+}
+a{
+    width: 4px;
+    height: 42px;
+    display: block;
+    background: url(../images/left.gif)
+}
+span{
+    width: 174px;
+    height: 42px;
+    display: block;
+    background: url(../images/right.gif)
+}

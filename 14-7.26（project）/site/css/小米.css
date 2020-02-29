@@ -1,0 +1,29 @@
+.box div{
+    width: 150px;
+    height: 175px;
+    margin: 100px 50px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    background-size: contain;
+}
+p{
+    background-color: yellow;
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    bottom: -40px;
+}
+.box div:nth-of-type(1)~div:hover{
+    box-shadow: -2px -2px 2px #ccc,2px -2px 2px #ccc;
+    transition: all 1s linear;
+    transform: translateY(-20px);
+}
+.box div:nth-of-type(1)~div:hover p{
+    bottom: 0px;
+    transition: all 1s linear;
+}
+.box div:nth-of-type(1):hover{
+    transform: translateY(-20px);
+    transition: all 1s linear;
+}

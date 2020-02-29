@@ -1,0 +1,35 @@
+.a{
+    width: 500px;
+    height: 50px;
+    margin: 100px auto;
+}
+.a>li{
+    float: left;
+    margin-right: 20px;
+}
+.a>li>a{
+    display: block;
+    width: 100px;
+    height: 50px;
+    background: pink;
+    font-size: 16px;
+    color: #000;
+    line-height: 50px;
+    text-align: center;
+}
+.b a{
+    display: block;
+    width: 100px;
+    height: 50px;
+    background: purple;
+    font-size: 16px;
+    color: #58bc58;
+    line-height: 50px;
+    text-align: center;
+}
+.b{
+    display: none;
+}
+.a li:hover .b{
+    display: block;
+}

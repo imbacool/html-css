@@ -1,0 +1,118 @@
+html,
+body {
+    height: 100%;
+}
+
+#find {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    height: 1.04rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    width: 8.693333rem;
+    height: .693333rem;
+    text-align: center;
+    background: url(../images/find/1.png) no-repeat 3.066667rem center #F5F5F5;
+    background-size: .28rem .28rem;
+    border-radius: .346667rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: .266667rem;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    color: #666666;
+    font-size: .4rem;
+    line-height: .933333rem;
+}
+
+nav li:active {
+    background: url(../images/find/2.png) no-repeat center bottom;
+    background-size: .4rem .106667rem;
+    font-weight: bold;
+}
+
+nav li:active a {
+    color: #000;
+}
+
+main {
+    flex: 1;
+    overflow: auto;
+}
+
+main>div {
+    height: 6.946667rem;
+}
+
+main img {
+    width: 100%;
+}
+
+main>div>div {
+    display: flex;
+    justify-content: space-around;
+}
+
+main>div .left {
+    float: left;
+    width: 2.786667rem;
+    margin-top: .226667rem;
+}
+
+main>div .left p {
+    color: #2692FF;
+}
+
+main>div .right {
+    float: right;
+    width: 4.36rem;
+    margin-top: .173333rem;
+}
+
+main>div .right i {
+    font-size: .426667rem;
+    color: #999999;
+}
+
+footer {
+    height: 1.36rem;
+    border-top: #cccccc .013333rem solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer div i {
+    font-size: .533333rem;
+}
+
+footer div span {
+    font-size: .24rem;
+    padding-top: .12rem;
+}
+
+footer div:active {
+    color: #2099FF;
+}

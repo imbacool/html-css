@@ -1,0 +1,107 @@
+html,
+body {
+    height: 100%;
+}
+
+#search {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    font-size: .5rem;
+    color: #fff;
+    background-color: #0CC440;
+    height: 1.375rem;
+    text-align: center;
+    line-height: 1.375rem;
+}
+form{
+    height: 1.03125rem;
+    border-bottom: .015625rem #CDCDCD solid;
+    display: flex;
+    align-items: center;
+}
+form input:nth-of-type(1){
+    width: 8.078125rem;
+    height: .75rem;
+    border: #AAAAAA .015625rem solid;
+    border-radius: .15625rem;
+    font-size: .34375rem;
+    margin-left: .15625rem;
+    margin-right: .15625rem;
+}
+form input:nth-of-type(2){
+    width: 1.421875rem;
+    height: .71875rem;
+    background-color: #0CC440;
+    color: #fff;
+    border-radius: .15625rem;
+}
+main {
+    flex: 1;
+    border-top: .15625rem #F1F1F1 solid;
+    border-bottom: .15625rem #F1F1F1 solid;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+main div{
+    height: 2.34375rem;
+    border-bottom: .015625rem #E5E5E5 solid;
+}
+main div img{
+    width: 1.484375rem;
+    height: 1.484375rem;
+    margin: .53125rem .296875rem 0 .359375rem;
+    float: left;
+}
+main div h2{
+    width: 6.09375rem;
+    float: left;
+    font-size: .40625rem;
+    padding-top: .6875rem;
+}
+main div p{
+    float: left;
+    line-height: 1.15625rem;
+    color: #989898;
+    font-size: .34375rem;
+}
+footer {
+    height: 1.375rem;
+    display: flex;
+}
+
+footer a {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #D1D1D3;
+    position: relative;
+}
+
+footer a span {
+    font-size: .34375rem;
+}
+
+footer a:active {
+    color: #07C443;
+}
+
+footer a:nth-of-type(3) i {
+    width: 1.640625rem;
+    height: 1.640625rem;
+    border: #D1D1D3 1px solid;
+    border-radius: 50%;
+    position: absolute;
+    top: -0.265625rem;
+    text-align: center;
+    line-height: 1.640625rem;
+    font-size: .828125rem;
+    background-color: #fff;
+}

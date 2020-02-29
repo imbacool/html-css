@@ -1,0 +1,105 @@
+html,
+body {
+    height: 100%;
+}
+
+#rank {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 1.066667rem;
+    font-weight: bold;
+    font-size: .426667rem;
+    text-align: center;
+    line-height: 1.066667rem;
+    background:
+        url(../images/rank/1.png) no-repeat .44rem center/.266667rem .506667rem,
+        url(../images/rank/2.png) no-repeat 9.173333rem center /.48rem .506667rem;
+}
+
+nav ul {
+    overflow: auto;
+    white-space: nowrap;
+    margin-bottom: .4rem;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    margin: 0 .333333rem;
+    font-size: .4rem;
+    line-height: 1.066667rem;
+    font-weight: lighter;
+    color: #000;
+}
+
+nav a:active {
+    font-weight: bold;
+}
+
+main {
+    flex: 1;
+    overflow: auto;
+    /* display: flex;
+    flex-direction: column; */
+    padding-left: .266667rem;
+}
+
+main>div {
+    margin-bottom: .266667rem;
+    height: 1.733333rem;
+}
+
+main>div img {
+    float: left;
+    width: 3.12rem;
+    height: 1.733333rem;
+}
+
+main>div>div {
+    float: left;
+    margin-left: .186667rem;
+    padding-top: .32rem;
+}
+
+main h2 {
+    font-size: .346667rem;
+}
+
+main p {
+    color: #9C9C9C;
+    font-size: .293333rem;
+    line-height: .8rem;
+}
+
+footer {
+    height: 1.36rem;
+    border-top: #cccccc .013333rem solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer div i {
+    font-size: .533333rem;
+}
+
+footer div span {
+    font-size: .24rem;
+    padding-top: .12rem;
+}
+
+footer div:active {
+    color: #2099FF;
+}
